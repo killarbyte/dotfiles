@@ -1,5 +1,5 @@
 dependency:
 
-mpv  
+[mpv](https://mpv.io/)  
 tmux  
 cmus
