@@ -1,0 +1,3 @@
+dependencys:
+
+mpv
