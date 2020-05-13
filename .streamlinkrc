@@ -8,5 +8,5 @@ player-no-close
 # good hardware
 default-stream=720p60,720p,1080p,480p,medium,best
 
-# uncomment for slow hardware (and comment good hardware )
+## uncomment for slow hardware (and comment good hardware )
 # default-stream=720p60,720p,480p,medium
