@@ -3,6 +3,8 @@
 # Player options
 player=mpv --cache 2048 --ontop --no-border --force-window --autofit=500x280 --geometry=-15-60
 # player=vlc
+
+#Other options
 player-no-close
 
 # good hardware
