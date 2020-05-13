@@ -1,3 +1,4 @@
 dependency:
 
 mpv
+tmux
