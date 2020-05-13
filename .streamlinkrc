@@ -1,0 +1,8 @@
+# help page: https://streamlink.github.io/cli.html#configuration-file
+
+# Player options
+player=mpv --cache 2048 --ontop --no-border --force-window --autofit=500x280 --geometry=-15-60
+# player=vlc
+player-no-close
+
+default-stream=720p60,720p,1080p,480p,medium,best
