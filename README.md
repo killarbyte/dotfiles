@@ -2,3 +2,4 @@ dependency:
 
 mpv  
 tmux  
+cmus
