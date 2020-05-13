@@ -1,4 +1,4 @@
 dependency:
 
-mpv
-tmux
+mpv  
+tmux  
