@@ -1,3 +1,3 @@
-dependencys:
+dependency:
 
 mpv
