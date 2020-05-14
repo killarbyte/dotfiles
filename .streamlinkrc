@@ -7,6 +7,9 @@ player=mpv --cache 2048 --ontop --no-border --force-window --autofit=500x280 --g
 #Other options
 player-no-close
 
+#awesome hardware
+default-stream=source,1080p,720p60,720p,best,480p,medium
+
 # good hardware
 default-stream=720p60,720p,1080p,480p,medium,best
 
