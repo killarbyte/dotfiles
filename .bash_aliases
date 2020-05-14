@@ -31,7 +31,7 @@ currentuser=$(who | awk 'NR==1{print $1}')
 
 alias zzx='docker stop $(docker ps -aq)'
 alias xxz='docker-compose down && docker-compose up -d'
-alias xzxz="sudo chown -R $currentuser:$currentuser /home/$(USER)/Documents/*"
+alias xzxz="sudo chown -R $currentuser:$currentuser /home/$currentuser/Documents/*"
 ####################################################################
 
 ### StreamLink ###
