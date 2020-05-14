@@ -27,9 +27,11 @@ alias tnk='tmux kill-server'
 
 ### Docker ###
 
+currentuser=$(who | awk '{print $1}')}
+
 alias zzx='docker stop $(docker ps -aq)'
 alias xxz='docker-compose down && docker-compose up -d'
-#alias xzxz="sudo chown -R USER:USER /home/$(USER)/Documents/*"
+alias xzxz="sudo chown -R $currentuser:$currentuser /home/$(USER)/Documents/*"
 ####################################################################
 
 ### StreamLink ###
