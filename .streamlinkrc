@@ -1,19 +1,19 @@
-# help page: https://streamlink.github.io/cli.html#configuration-file
+## help page: https://streamlink.github.io/cli.html#configuration-file
 
-# mpv Player options ( default )
+## mpv Player options ( default )
 player=mpv --cache 2048 --ontop --no-border --force-window --autofit=500x280 --geometry=-15-60
 
-# vlc Player options
+## vlc Player options
 # player=vlc
 
-#Other options
+## Other options
 player-no-close
 
-# awesome hardware
+## awesome hardware
 # default-stream=source,1080p,720p60,720p,best,480p,medium
 
-# good hardware ( default )
+## good hardware ( default )
 default-stream=720p60,720p,1080p,480p,medium,best
 
-# slow hardware
+## slow hardware
 # default-stream=720p60,720p,480p,medium
