@@ -27,7 +27,7 @@ alias tnk='tmux kill-server'
 
 ### Docker ###
 
-currentuser=$(who | awk '{print $1}')}
+currentuser=$(who | awk '{print $1}')
 
 alias zzx='docker stop $(docker ps -aq)'
 alias xxz='docker-compose down && docker-compose up -d'
