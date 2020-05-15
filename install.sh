@@ -1,6 +1,6 @@
 #!/bin/sh
 
-### Dynamic Data
+### Dynamic Data ###
 currentuser=$(who | awk 'NR==1{print $1}')
 
 ### Copy Files (do not remove "\") ###
@@ -9,6 +9,11 @@ currentuser=$(who | awk 'NR==1{print $1}')
 
 ### make Directorys ###
 mkdir -p /home/$currentuser/Downloads/git
+
+
+### install livestreamers ###
+# cd /home/$currentuser/Downloads/git
+# git clone https://github.com/begs/livestreamers.git
 
 ### enable stuff ###
 source /home/$currentuser/.bashrc
