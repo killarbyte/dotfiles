@@ -12,7 +12,7 @@ cmus is a small, fast and powerful console music player for Unix-like operating 
 [livestreamers](https://github.com/begs/livestreamers) (get OAuth tokken [here](https://twitchapps.com/tmi/))  
 A Python script that uses Twitch.tv API to check if a user's followed channels are live.
 
-![GitHub Logo](./demo.jpg)
+Format: ![Alt Text](https://raw.githubusercontent.com/killarbyte/dotfiles/master/Demo.jpg)
 
 TODO:  
 Add favorite youtube streams  
