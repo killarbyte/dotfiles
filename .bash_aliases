@@ -2,17 +2,17 @@
 
 alias tns="
 tmux new -s dev -d
-tmux new-window -n media -t dev
+tmux new-window -n streams -t dev
+tmux split-window -h -t dev:2.1
+tmux send-keys -t dev:2.2 'irssi' Enter
+tmux send-keys -t dev:2.2 '/join #'
 tmux split-window -v -t dev:2.1
-tmux split-window -h -t dev:2.2
-tmux send-keys -t dev:2.3 'cd ~/Downloads/git/livestreamers/' Enter
-tmux send-keys -t dev:2.3 'watch -c -t -n 60 python3 live.py' Enter
-tmux send-keys -t dev:2.2 'htop' Enter
-tmux send-keys -t dev:2.1 'cd /boroda/music' Enter
-tmux send-keys -t dev:2.1 'cmus' Enter
-tmux send-keys -t dev:2.1 '5'
-tmux resize-pane -t dev:2.3 -L 10
-tmux resize-pane -t dev:2.3 -U 10
+tmux split-window -v -t dev:2.2
+tmux resize-pane -t dev:2.2 -U 8
+tmux resize-pane -t dev:2.1 -U 16
+tmux send-keys -t dev:2.2 'cd ~/Downloads/git/livestreamers/' Enter
+tmux send-keys -t dev:2.2 'watch -c -t -n 60 python3 live.py' Enter
+tmux send-keys -t dev:2.3 'cmatrix' Enter
 tmux new-window -n docker -t dev
 tmux split-window -v -t dev:3.1
 tmux split-window -v -t dev:3.2
