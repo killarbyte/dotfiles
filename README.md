@@ -24,3 +24,4 @@ Add favorite youtube streams
 Search and Add youtube current online streams terminal client  
 Terminal settings  
 Init settings
+Font settings
