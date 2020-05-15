@@ -11,6 +11,8 @@ tmux send-keys -t dev:2.2 'htop' Enter
 tmux send-keys -t dev:2.1 'cd /boroda/music' Enter
 tmux send-keys -t dev:2.1 'cmus' Enter
 tmux send-keys -t dev:2.1 '5'
+tmux resize-pane -t dev:2.3 -L 10
+tmux resize-pane -t dev:2.3 -U 10
 tmux new-window -n docker -t dev
 tmux split-window -v -t dev:3.1
 tmux split-window -v -t dev:3.2
