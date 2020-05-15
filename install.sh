@@ -17,3 +17,7 @@ mkdir -p /home/$currentuser/Downloads/git
 
 ### enable stuff ###
 # source /home/$currentuser/.bashrc
+
+
+### Other stuff ###
+# tmux theme :colorscheme night
