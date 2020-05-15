@@ -1,7 +1,8 @@
 dependency:
 
 [mpv](https://github.com/mpv-player/mpv)  
-[tmux](https://github.com/tmux/tmux/wiki)
+[tmux](https://github.com/tmux/tmux/wiki)  
+tmux is a terminal multiplexer. It lets you switch easily between several programs in one terminal, detach them (they keep running in the background) and reattach them to a different terminal.
 
 [cmus](https://cmus.github.io/)  
 cmus is a small, fast and powerful console music player for Unix-like operating systems.
