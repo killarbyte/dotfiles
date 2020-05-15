@@ -15,9 +15,9 @@ mkdir -p /home/$currentuser/Downloads/git
 # cd /home/$currentuser/Downloads/git
 # git clone https://github.com/begs/livestreamers.git
 
-### enable stuff ###
-# source /home/$currentuser/.bashrc
-
 
 ### Other stuff ###
 # tmux theme :colorscheme night
+
+### enable stuff ###
+# source /home/$currentuser/.bashrc
