@@ -16,4 +16,4 @@ mkdir -p /home/$currentuser/Downloads/git
 # git clone https://github.com/begs/livestreamers.git
 
 ### enable stuff ###
-source /home/$currentuser/.bashrc
+# source /home/$currentuser/.bashrc
