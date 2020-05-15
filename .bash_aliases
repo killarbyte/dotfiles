@@ -6,7 +6,7 @@ tmux new-window -n media -t dev
 tmux split-window -v -t dev:2.1
 tmux split-window -h -t dev:2.2
 tmux send-keys -t dev:2.3 'cd ~/Downloads/git/livestreamers/' Enter
-tmux send-keys -t dev:2.3 'watch -c -n 60 python3 live.py' Enter
+tmux send-keys -t dev:2.3 'watch -c -t -n 60 python3 live.py' Enter
 tmux send-keys -t dev:2.2 'htop' Enter
 tmux send-keys -t dev:2.1 'cd /boroda/music' Enter
 tmux send-keys -t dev:2.1 'cmus' Enter
