@@ -1,6 +1,8 @@
-dependency:
+Depps:
 
 [mpv](https://github.com/mpv-player/mpv)  
+mpv is a free (as in freedom) media player for the command line. It supports a wide variety of media file formats, audio and video codecs, and subtitle types.
+
 [tmux](https://github.com/tmux/tmux/wiki)  
 tmux is a terminal multiplexer. It lets you switch easily between several programs in one terminal, detach them (they keep running in the background) and reattach them to a different terminal.
 
