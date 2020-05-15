@@ -5,7 +5,7 @@ cp .bash_aliases ~/
 cp .streamlinkrc ~/
 
 ### make Directorys ###
-#mkdir -p ~/Downloads/torrents
+mkdir -p ~/Downloads/git
 
 ### enable stuff ###
 source ~/.bashrc
