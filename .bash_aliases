@@ -38,7 +38,7 @@ alias xzxz="sudo chown -R $currentuser:$currentuser /home/$currentuser/Documents
 
 alias stream-cfg='nano ~/.streamlinkrc'
 
-### Streams ###
+### Streams twitch ###
 alias stream-2easy4pusarizi='streamlink twitch.tv/2easy4pusarizi '
 alias stream-aleksandrug='streamlink twitch.tv/aleksandrug '
 alias stream-alone_monax='streamlink twitch.tv/alone_monax '
@@ -79,3 +79,6 @@ alias stream-voodoosh='streamlink twitch.tv/voodoosh '
 alias stream-wot_pnz='streamlink twitch.tv/wot_pnz '
 alias stream-xerosawyer='streamlink twitch.tv/xerosawyer '
 alias stream-zreitdl='streamlink twitch.tv/zreitdl '
+
+### Streams youtube ###
+# alias stream-zreitdl='streamlink twitch.tv/zreitdl '
