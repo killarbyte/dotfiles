@@ -3,7 +3,7 @@
 ### Dynamic Data
 currentuser=$(who | awk 'NR==1{print $1}')
 
-### Copy Files ###
+### Copy Files (do not remove "\") ###
 \cp -r .bash_aliases /home/$currentuser/
 \cp -r .streamlinkrc /home/$currentuser/
 
