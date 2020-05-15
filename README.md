@@ -16,4 +16,6 @@ A Python script that uses Twitch.tv API to check if a user's followed channels a
 
 TODO:  
 Add favorite youtube streams  
-Search and Add youtube current online streams terminal client
+Search and Add youtube current online streams terminal client  
+Terminal settings  
+Init settings
