@@ -11,4 +11,4 @@ currentuser=$(who | awk 'NR==1{print $1}')
 mkdir -p /home/$currentuser/Downloads/git
 
 ### enable stuff ###
-. /home/$currentuser/.bashrc
+source /home/$currentuser/.bashrc
