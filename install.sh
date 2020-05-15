@@ -4,8 +4,8 @@
 currentuser=$(who | awk 'NR==1{print $1}')
 
 ### Copy Files ###
-cp .bash_aliases /home/$currentuser/
-cp .streamlinkrc /home/$currentuser/
+yes | cp .bash_aliases /home/$currentuser/
+yes | cp .streamlinkrc /home/$currentuser/
 
 ### make Directorys ###
 mkdir -p /home/$currentuser/Downloads/git
