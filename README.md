@@ -25,3 +25,6 @@ Search and Add youtube current online streams terminal client
 Terminal settings  
 Init settings
 Font settings
+
+st  
+libfontconfig1-dev
