@@ -85,4 +85,7 @@ alias stream-xerosawyer='streamlink twitch.tv/xerosawyer '
 alias stream-zreitdl='streamlink twitch.tv/zreitdl '
 
 ### Streams youtube ###
-alias stream-ippsec='streamlink https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA '
+alias stream-Yippsec='streamlink https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA '
+alias stream-Ymatsuka23 ='streamlink https://www.youtube.com/channel/UCHib4QhMXFp31-5HmQQw_Pg '
+alias stream-Ythebaltazartv='streamlink https://www.youtube.com/channel/UCo8fElL5iJdyf8gBP1ntjKA '
+alias stream-Ydmitriy_bachilo='streamlink https://www.youtube.com/channel/UC5dgoavpIertLkNDDITDoBQ '
