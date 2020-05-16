@@ -87,5 +87,6 @@ alias stream-zreitdl='streamlink twitch.tv/zreitdl '
 ### Streams youtube ###
 alias stream-Ydmitriy_bachilo='streamlink https://www.youtube.com/channel/UC5dgoavpIertLkNDDITDoBQ '
 alias stream-Yippsec='streamlink https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA '
+alias stream-Yluke_smith='streamlink https://www.youtube.com/channel/UC2eYFnH61tmytImy1mTYvhA '
 alias stream-Ymatsuka23 ='streamlink https://www.youtube.com/channel/UCHib4QhMXFp31-5HmQQw_Pg '
 alias stream-Ythebaltazartv='streamlink https://www.youtube.com/channel/UCo8fElL5iJdyf8gBP1ntjKA '
