@@ -85,4 +85,4 @@ alias stream-xerosawyer='streamlink twitch.tv/xerosawyer '
 alias stream-zreitdl='streamlink twitch.tv/zreitdl '
 
 ### Streams youtube ###
-# alias stream-zreitdl='streamlink twitch.tv/zreitdl '
+alias stream-ippsec='streamlink https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA '
