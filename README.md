@@ -27,4 +27,5 @@ Init settings
 Font settings
 
 st  
-libfontconfig1-dev
+libfontconfig1-dev  
+libxft-dev
