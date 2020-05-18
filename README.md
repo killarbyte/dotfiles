@@ -9,6 +9,9 @@ tmux is a terminal multiplexer. It lets you switch easily between several progra
 [cmus](https://cmus.github.io/)  
 cmus is a small, fast and powerful console music player for Unix-like operating systems.
 
+[streamlink](https://github.com/streamlink/streamlink)
+Streamlink is a CLI utility which pipes video streams from various services into a video player
+
 [livestreamers](https://github.com/begs/livestreamers) (get OAuth tokken [here](https://twitchapps.com/tmi/))  
 A Python script that uses Twitch.tv API to check if a user's followed channels are live.
 
