@@ -8,7 +8,7 @@ currentuser=$(who | awk 'NR==1{print $1}')
 \cp -r .streamlinkrc /home/$currentuser/
 
 ### make Directorys ###
-\cp -r 
+\cp -r scripts /home/$currentuser/
 
 
 ### install livestreamers ###
