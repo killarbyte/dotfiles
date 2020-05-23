@@ -35,3 +35,7 @@ Font settings
 st  
 libfontconfig1-dev  
 libxft-dev
+
+figlet
+aafire
+tty-clock
