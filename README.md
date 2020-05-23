@@ -36,6 +36,6 @@ st
 libfontconfig1-dev  
 libxft-dev
 
-figlet
-aafire
+figlet  
+aafire  
 tty-clock
