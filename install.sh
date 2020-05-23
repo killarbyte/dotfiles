@@ -7,13 +7,10 @@ currentuser=$(who | awk 'NR==1{print $1}')
 \cp -r .bash_aliases /home/$currentuser/
 \cp -r .streamlinkrc /home/$currentuser/
 
-### make Directorys ###
-\cp -r scripts /home/$currentuser/
-
-
 ### install livestreamers ###
-# cd /home/$currentuser/Downloads/git
-# git clone https://github.com/begs/livestreamers.git
+# https://github.com/begs/livestreamers.git
+\cp -r scripts /home/$currentuser/
+chmod +x /home/$currentuser/streams.sh
 
 
 ### Other stuff ###
