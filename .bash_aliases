@@ -1,3 +1,6 @@
+### other ###
+alias lolcat="/usr/games/lolcat"
+
 ### TMUX ###
 
 alias tns="
