@@ -12,6 +12,9 @@ A Python script that uses Twitch.tv API to check if a user's followed channels a
 [mpv](https://github.com/mpv-player/mpv)  
 mpv is a free (as in freedom) media player for the command line. It supports a wide variety of media file formats, audio and video codecs, and subtitle types.
 
+[lolcat](https://irssi.org/download/)  
+Irssi is a modular chat client that is most commonly known for its text mode user interface, but 80% of the code isn't text mode specific. Irssi comes with IRC support built in, and there are third party ICB, SILC, XMPP (Jabber), PSYC and Quassel protocol modules available.
+
 [cmus](https://cmus.github.io/)  
 cmus is a small, fast and powerful console music player for Unix-like operating systems.
 
