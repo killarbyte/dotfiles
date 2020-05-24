@@ -17,7 +17,7 @@ tmux send-keys -t dev:2.1 'clear && figlet KILLARBYTE | lolcat' Enter
 tmux send-keys -t dev:2.2 'cd ~/scripts/livestreamers' Enter
 tmux send-keys -t dev:2.2 './streams.sh' Enter
 tmux send-keys -t dev:2.3 'cd /boroda/music' Enter
-tmux send-keys -t dev:2.3 'cmus' Enter
+tmux send-keys -t dev:2.3 'tty-clock -c' Enter
 tmux send-keys -t dev:2.3 '5'
 tmux new-window -n docker -t dev
 tmux split-window -v -t dev:3.1
