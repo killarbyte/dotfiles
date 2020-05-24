@@ -13,7 +13,7 @@ currentuser=$(who | awk 'NR==1{print $1}')
 chmod +x /home/$currentuser/scripts/livestreamers/streams.sh
 
 ### irssi
-# mkdir -p /home/$currentuser/.irssi/scripts
+# mkdir -p /home/$currentuser/.irssi/scripts/autorun
 
 
 ### Other stuff ###
