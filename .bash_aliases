@@ -13,6 +13,7 @@ tmux split-window -v -t dev:2.1
 tmux split-window -v -t dev:2.2
 tmux resize-pane -t dev:2.2 -U 8
 tmux resize-pane -t dev:2.1 -U 16
+tmux send-keys -t dev:2.1 'clear && figlet KILLARBYTE | lolcat' Enter
 tmux send-keys -t dev:2.2 'cd ~/scripts/livestreamers' Enter
 tmux send-keys -t dev:2.2 './streams.sh' Enter
 tmux send-keys -t dev:2.3 'cd /boroda/music' Enter
