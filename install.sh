@@ -9,6 +9,7 @@ currentuser=$(who | awk 'NR==1{print $1}')
 
 ### install livestreamers ###
 # https://github.com/begs/livestreamers.git
+mkdir -p /home/$currentuser/scripts/livestreamers
 \cp -r scripts /home/$currentuser/
 chmod +x /home/$currentuser/scripts/livestreamers/streams.sh
 
