@@ -30,6 +30,7 @@ tmux send-keys -t dev:3.1 'grc ls -la' Enter"
 
 alias tnj='tmux attach -t dev'
 alias tnk='tmux kill-server'
+alias tnr='tnk;sleep 1;tns; sleep 1;tnj'
 ####################################################################
 
 ### Docker ###
