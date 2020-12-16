@@ -17,3 +17,6 @@ default-stream=720p60,720p,1080p,1080p60,480p,medium,best
 
 ## slow hardware
 # default-stream=720p60,720p,480p,360p,medium
+
+## slow hardware
+# default-stream=480p,360p,medium
