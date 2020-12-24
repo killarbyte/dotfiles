@@ -4,6 +4,9 @@ alias lolcat="/usr/games/lolcat"
 ### My Ip ###
 alias myip="curl ipinfo.io/ip"
 
+### Ports ###
+alias ports="netstat -tulanp"
+
 ### TMUX ###
 
 alias tns="
