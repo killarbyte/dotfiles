@@ -1,11 +1,10 @@
-### other ###
-alias lolcat="/usr/games/lolcat"
 
-### My Ip ###
+### Network ###
 alias myip="curl ipinfo.io/ip"
-
-### Ports ###
 alias ports="netstat -tulanp"
+
+### Archive ###
+alias untar="tar -zxvf"
 
 ### TMUX ###
 
@@ -38,6 +37,9 @@ alias tnj='tmux attach -t dev'
 alias tnk='tmux kill-server'
 alias tnr='tnk;sleep 1;tns; sleep 1;tnj'
 ####################################################################
+
+### other ###
+alias lolcat="/usr/games/lolcat"
 
 ### Docker ###
 
