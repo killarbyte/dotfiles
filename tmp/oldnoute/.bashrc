@@ -114,23 +114,3 @@ if ! shopt -oq posix; then
   fi
 fi
 
-
-### TMUX ###
-
-alias tns="
-tmux new -s home-oldnoute -d
-tmux new-window -n music -t home-oldnoute
-tmux split-window -h -t home-oldnoute:1.0
-tmux split-window -v -t home-oldnoute:1.1
-tmux split-window -v -t home-oldnoute:1.2
-tmux send-keys -t home-oldnoute:1.0 'alsamixer' Enter
-tmux send-keys -t home-oldnoute:1.1 'cd Music/' Enter
-tmux send-keys -t home-oldnoute:1.1 'cmus' Enter
-tmux send-keys -t home-oldnoute:1.1 '5'
-tmux send-keys -t home-oldnoute:1.2 'htop' Enter
-tmux send-keys -t home-oldnoute:1.3 'tty-clock -c' Enter"
-
-alias tnj='tmux attach -t home-oldnoute'
-alias tnk='tmux kill-server'
-alias tnr='tnk;sleep 1;tns; sleep 1;tnj'
-####################################################################
