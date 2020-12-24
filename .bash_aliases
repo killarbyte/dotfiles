@@ -11,6 +11,8 @@ alias lm="ls -t -1"
 alias lt="ls --human-readable --size -1 -S --classify"
 
 ### other ###
+alias yt="youtube-dl --add-metadata -i"
+alias yta="yt -x -f bestaudio/best"
 alias sha="shasum -a 256"
 alias lolcat="/usr/games/lolcat"
 
