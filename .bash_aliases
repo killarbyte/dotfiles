@@ -6,6 +6,9 @@ alias ports="netstat -tulanp"
 ### Archive ###
 alias untar="tar -zxvf"
 
+### other ###
+alias lolcat="/usr/games/lolcat"
+
 ### TMUX ###
 
 alias tns="
@@ -37,9 +40,6 @@ alias tnj='tmux attach -t dev'
 alias tnk='tmux kill-server'
 alias tnr='tnk;sleep 1;tns; sleep 1;tnj'
 ####################################################################
-
-### other ###
-alias lolcat="/usr/games/lolcat"
 
 ### Docker ###
 
