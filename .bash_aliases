@@ -6,6 +6,10 @@ alias ports="netstat -tulanp"
 ### Archive ###
 alias untar="tar -zxvf"
 
+### Directory ###
+alias lm="ls -t -1"
+alias lt="ls --human-readable --size -1 -S --classify"
+
 ### other ###
 alias sha="shasum -a 256"
 alias lolcat="/usr/games/lolcat"
