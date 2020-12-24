@@ -7,6 +7,7 @@ alias ports="netstat -tulanp"
 alias untar="tar -zxvf"
 
 ### other ###
+alias sha="shasum -a 256"
 alias lolcat="/usr/games/lolcat"
 
 ### TMUX ###
