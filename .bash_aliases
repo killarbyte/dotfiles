@@ -1,6 +1,9 @@
 ### other ###
 alias lolcat="/usr/games/lolcat"
 
+### My Ip ###
+alias myip="curl ipinfo.io/ip"
+
 ### TMUX ###
 
 alias tns="
