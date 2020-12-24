@@ -15,6 +15,7 @@ alias mkd="mkdir -pv"
 alias yt="youtube-dl --add-metadata -i"
 alias yta="yt -x -f bestaudio/best"
 alias sha="shasum -a 256"
+alias ka="killall"
 alias lolcat="/usr/games/lolcat"
 
 ### TMUX ###
