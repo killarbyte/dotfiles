@@ -11,11 +11,14 @@ alias lm="ls -t -1"
 alias lt="ls --human-readable --size -1 -S --classify"
 alias mkd="mkdir -pv"
 
+### System ###
+alias sdn="sudo shutdown -h now"
+alias ka="killall"
+
 ### other ###
 alias yt="youtube-dl --add-metadata -i"
 alias yta="yt -x -f bestaudio/best"
 alias sha="shasum -a 256"
-alias ka="killall"
 alias lolcat="/usr/games/lolcat"
 
 ### TMUX ###
