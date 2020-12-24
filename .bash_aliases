@@ -9,6 +9,7 @@ alias untar="tar -zxvf"
 ### Directory ###
 alias lm="ls -t -1"
 alias lt="ls --human-readable --size -1 -S --classify"
+alias mkd="mkdir -pv"
 
 ### other ###
 alias yt="youtube-dl --add-metadata -i"
